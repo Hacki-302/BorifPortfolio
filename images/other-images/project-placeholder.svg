@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder</title>
+  <desc id="desc">Abstract blue interface illustration for a portfolio project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102542"/>
+      <stop offset="1" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <circle cx="790" cy="76" r="220" fill="#38bdf8" opacity=".07"/>
+  <rect x="90" y="90" width="780" height="360" rx="24" fill="#131f35" stroke="#60a5fa" stroke-opacity=".28"/>
+  <rect x="120" y="120" width="720" height="36" rx="10" fill="#1c3150"/>
+  <circle cx="145" cy="138" r="6" fill="#f87171"/><circle cx="166" cy="138" r="6" fill="#fbbf24"/><circle cx="187" cy="138" r="6" fill="#4ade80"/>
+  <rect x="140" y="190" width="280" height="24" rx="8" fill="url(#accent)" opacity=".75"/>
+  <rect x="140" y="232" width="490" height="13" rx="6" fill="#94a3b8" opacity=".45"/>
+  <rect x="140" y="260" width="410" height="13" rx="6" fill="#94a3b8" opacity=".26"/>
+  <rect x="140" y="310" width="170" height="55" rx="13" fill="url(#accent)" opacity=".82"/>
+  <rect x="660" y="202" width="140" height="140" rx="22" fill="#38bdf8" opacity=".12" stroke="#60a5fa" stroke-opacity=".5"/>
+  <path d="M704 300l26-54 26 54z" fill="#60a5fa" opacity=".78"/>
+  <text x="480" y="416" fill="#dbeafe" font-family="Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle">PROJECT PREVIEW</text>
+</svg>

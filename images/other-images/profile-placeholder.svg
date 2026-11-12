@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A blue-toned abstract portrait placeholder for Borif Gido.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173154"/>
+      <stop offset="1" stop-color="#0c2537"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="225" r="115" fill="url(#shine)" opacity=".72"/>
+  <path d="M106 600c13-137 85-210 194-210s181 73 194 210" fill="url(#shine)" opacity=".74"/>
+  <circle cx="300" cy="300" r="260" fill="none" stroke="#93c5fd" stroke-opacity=".22" stroke-width="2"/>
+  <text x="300" y="540" fill="#dbeafe" font-family="Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle">ADD YOUR PHOTO</text>
+</svg>

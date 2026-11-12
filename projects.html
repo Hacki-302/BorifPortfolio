@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects by Borif Gido, including a GitHub User Search app, Number Guessing Game Pro, Telegram Portfolio Bot, and 3D Login Page.">
+  <meta property="og:title" content="Projects | Borif Gido">
+  <meta property="og:description" content="Personal software development projects and technologies.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0B1120">
+  <title>Projects | Borif Gido</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar"></div></div>
+  <header class="site-header"><div class="container nav-wrap">
+     <a href="#home" class="logo" aria-label="Borif Gido home">
+                <img src="assets/logo.png" alt="Borif Gido logo">
+            </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav"><span class="nav-toggle-lines"></span></button>
+    <nav class="site-nav" id="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a></nav>
+  </div></header>
+
+  <main id="main">
+    <section class="page-hero"><div class="container">
+      <p class="eyebrow">Selected projects</p><h1>Learning through <span class="gradient-text">building.</span></h1>
+      <p class="lead">Personal projects exploring interfaces, APIs, Python automation, and responsive web design.</p>
+    </div></section>
+
+    <section class="section-sm"><div class="container">
+      <div class="filter-row" role="group" aria-label="Filter projects">
+        <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All Projects</button>
+        <button class="filter-btn" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+        <button class="filter-btn" type="button" data-filter="backend" aria-pressed="false">Backend</button>
+        <button class="filter-btn" type="button" data-filter="python" aria-pressed="false">Python</button>
+        <button class="filter-btn" type="button" data-filter="other" aria-pressed="false">Other Projects</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="frontend">
+          <div class="project-image"><img src="images/project1.jpg" data-fallback="images/other-images/project-placeholder.svg" alt="Visual placeholder for GitHub User Search project" loading="lazy"></div>
+          <div class="project-body"><p class="eyebrow">Frontend</p><h2 style="font-size:1.35rem">GitHub User Search</h2>
+            <p>A user-search interface built with React and Vite, using the GitHub API to retrieve user information.</p>
+            <ul class="pill-list"><li class="pill">React</li><li class="pill">JavaScript</li>
+              <li class="pill">Vite</li><li class="pill">GitHub API</li></ul><div class="project-actions"><a class="btn btn-small" href="https://github.com/Hacki-302/github-user-search-pro" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal" data-category="frontend other">
+          <div class="project-image"><img src="images/project2.jpg" data-fallback="images/other-images/project-placeholder.svg" alt="Visual placeholder for Number Guessing Game Pro project" loading="lazy"></div>
+          <div class="project-body"><p class="eyebrow">Frontend · Game</p><h2 style="font-size:1.35rem">Number Guessing Game Pro</h2><p>A browser-based number guessing game created while practicing interactive UI development.</p><ul class="pill-list"><li class="pill">React</li><li class="pill">JavaScript</li><li class="pill">Tailwind CSS</li><li class="pill">Vite</li></ul><div class="project-actions"><a class="btn btn-small" href="https://github.com/Hacki-302/number-guessing-game-pro" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal" data-category="backend python">
+          <div class="project-image"><img src="images/project3.jpg" data-fallback="images/other-images/project-placeholder.svg" alt="Visual placeholder for Telegram Portfolio Bot project" loading="lazy"></div>
+          <div class="project-body"><p class="eyebrow">Python · Bot</p><h2 style="font-size:1.35rem">Telegram Portfolio Bot</h2><p>A Telegram bot project exploring Python bot development and Telegram Bot API interactions.</p><ul class="pill-list"><li class="pill">Python</li><li class="pill">Telegram Bot API</li><li class="pill">python-telegram-bot</li></ul><div class="project-actions"><a class="btn btn-small" href="https://github.com/Hacki-302/borif-gido-telegram-bot" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a><a class="btn btn-small btn-secondary" href="https://t.me/@BorifGidoProfileBot" target="_blank" rel="noopener noreferrer">Telegram ↗</a></div></div>
+        </article>
+
+        <article class="project-card reveal" data-category="frontend other">
+          <div class="project-image"><img src="images/project4.jpg" data-fallback="images/other-images/project-placeholder.svg" alt="Visual placeholder for 3D Login Page project" loading="lazy"></div>
+          <div class="project-body"><p class="eyebrow">Frontend · UI</p><h2 style="font-size:1.35rem">3D Login Page</h2><p>A responsive login-page concept focused on CSS presentation and interactive visual effects.</p><ul class="pill-list"><li class="pill">HTML5</li><li class="pill">CSS3</li><li class="pill">JavaScript</li><li class="pill">Responsive design</li></ul><div class="project-actions"><a class="btn btn-small" href="https://github.com/Hacki-302/3D-Login-Page" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></div></div>
+        </article>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer">
+   <p class="copyright">© 2026 Borif Gido  All rights reserved.</p>
+    
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
