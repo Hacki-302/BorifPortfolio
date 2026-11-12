@@ -130,7 +130,7 @@ function initContactForm() {
     if (!form || !status || !submitButton) return;
 
     // Local backend address.
-    const API_URL = "http://localhost:5000/api/contact";
+   const API_URL = "https://borif-portfolio.onrender.com/api/contact";
 
     form.addEventListener("submit", async (event) => {
         event.preventDefault();
