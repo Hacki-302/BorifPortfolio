@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hacki-302.github.io/BorifPortfolio/sitemap.xml
